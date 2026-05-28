@@ -1,0 +1,15 @@
+#!/bin/sh
+# CUPS filter shell wrapper — finds a working Python 3 and delegates to the
+# implementation script.  Apple's /usr/bin/python3 exits with status 1 when
+# run as the CUPS _lp user because it cannot verify Xcode tools; Homebrew's
+# python3 does not have this restriction.
+for PYTHON in \
+    /opt/homebrew/bin/python3 \
+    /usr/local/bin/python3 \
+    /usr/bin/python3; do
+    if [ -x "$PYTHON" ]; then
+        exec "$PYTHON" /usr/libexec/cups/filter/rastertozebrazpl.py "$@"
+    fi
+done
+echo "rastertozebrazpl: Python 3 not found" >&2
+exit 1

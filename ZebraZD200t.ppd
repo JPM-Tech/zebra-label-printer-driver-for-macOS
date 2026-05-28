@@ -1,0 +1,211 @@
+*PPD-Adobe: "4.3"
+*FormatVersion: "4.3"
+*FileVersion: "2.0"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PCFileName: "ZEBZD200T.PPD"
+*Manufacturer: "Zebra"
+*Product: "(Zebra ZD200t)"
+*ModelName: "Zebra ZD200t/ZD230 Label Printer"
+*NickName: "Zebra ZD200t/ZD230"
+*ShortNickName: "Zebra ZD200t"
+*PSVersion: "(3010.000) 0"
+*LanguageLevel: "3"
+*ColorDevice: False
+*DefaultColorSpace: Gray
+*FileSystem: False
+*Throughput: "8"
+*LandscapeOrientation: Plus90
+*TTRasterizer: Type42
+*VariablePaperSize: True
+
+*cupsVersion: 1.4
+*cupsManualCopies: True
+*cupsFilter: "application/vnd.cups-raster 0 rastertozebrazpl"
+*cupsLanguages: "en"
+
+*% -- Resolution ------------------------------------------------------------
+*OpenUI *Resolution/Resolution: PickOne
+*DefaultResolution: 203dpi
+*Resolution 203dpi/203 DPI: "<</HWResolution[203 203]>>setpagedevice"
+*CloseUI: *Resolution
+
+*% -- Color model -----------------------------------------------------------
+*OpenUI *ColorModel/Color Mode: PickOne
+*DefaultColorModel: Gray
+*ColorModel Gray/Grayscale: "<</cupsColorSpace 18/cupsBitsPerColor 8/cupsColorOrder 0>>setpagedevice"
+*CloseUI: *ColorModel
+
+*% -- Label sizes (points: 1 pt = 1/72 inch) -------------------------------
+*% Common shipping / logistics labels
+*OpenUI *PageSize/Label Size: PickOne
+*DefaultPageSize: w288h432
+
+*PageSize w288h576/4" x 8":             "<</PageSize[288 576]/ImagingBBox null>>setpagedevice"
+*PageSize w288h432/4" x 6" - Shipping:  "<</PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*PageSize w288h360/4" x 5":             "<</PageSize[288 360]/ImagingBBox null>>setpagedevice"
+*PageSize w288h288/4" x 4":             "<</PageSize[288 288]/ImagingBBox null>>setpagedevice"
+*PageSize w288h252/4" x 3.5":           "<</PageSize[288 252]/ImagingBBox null>>setpagedevice"
+*PageSize w288h216/4" x 3":             "<</PageSize[288 216]/ImagingBBox null>>setpagedevice"
+*PageSize w288h180/4" x 2.5":           "<</PageSize[288 180]/ImagingBBox null>>setpagedevice"
+*PageSize w288h144/4" x 2":             "<</PageSize[288 144]/ImagingBBox null>>setpagedevice"
+*PageSize w288h108/4" x 1.5":           "<</PageSize[288 108]/ImagingBBox null>>setpagedevice"
+*PageSize w288h72/4" x 1":              "<</PageSize[288 72]/ImagingBBox null>>setpagedevice"
+*PageSize w288h54/4" x 0.75":           "<</PageSize[288 54]/ImagingBBox null>>setpagedevice"
+
+*PageSize w261h180/3.625" x 2.5" - Receipt: "<</PageSize[261 180]/ImagingBBox null>>setpagedevice"
+*PageSize w261h126/3.625" x 1.75":      "<</PageSize[261 126]/ImagingBBox null>>setpagedevice"
+
+*PageSize w216h432/3" x 6":             "<</PageSize[216 432]/ImagingBBox null>>setpagedevice"
+*PageSize w216h288/3" x 4":             "<</PageSize[216 288]/ImagingBBox null>>setpagedevice"
+*PageSize w216h216/3" x 3":             "<</PageSize[216 216]/ImagingBBox null>>setpagedevice"
+*PageSize w216h144/3" x 2":             "<</PageSize[216 144]/ImagingBBox null>>setpagedevice"
+*PageSize w216h72/3" x 1":              "<</PageSize[216 72]/ImagingBBox null>>setpagedevice"
+*PageSize w216h54/3" x 0.75":           "<</PageSize[216 54]/ImagingBBox null>>setpagedevice"
+
+*PageSize w180h72/2.5" x 1":            "<</PageSize[180 72]/ImagingBBox null>>setpagedevice"
+*PageSize w180h54/2.5" x 0.75":         "<</PageSize[180 54]/ImagingBBox null>>setpagedevice"
+
+*PageSize w162h126/2.25" x 1.75":       "<</PageSize[162 126]/ImagingBBox null>>setpagedevice"
+*PageSize w162h90/2.25" x 1.25":        "<</PageSize[162 90]/ImagingBBox null>>setpagedevice"
+*PageSize w162h72/2.25" x 1":           "<</PageSize[162 72]/ImagingBBox null>>setpagedevice"
+*PageSize w162h54/2.25" x 0.75" - Price Tag: "<</PageSize[162 54]/ImagingBBox null>>setpagedevice"
+
+*PageSize w144h144/2" x 2":             "<</PageSize[144 144]/ImagingBBox null>>setpagedevice"
+*PageSize w144h108/2" x 1.5":           "<</PageSize[144 108]/ImagingBBox null>>setpagedevice"
+*PageSize w144h72/2" x 1":              "<</PageSize[144 72]/ImagingBBox null>>setpagedevice"
+*PageSize w144h54/2" x 0.75":           "<</PageSize[144 54]/ImagingBBox null>>setpagedevice"
+
+*PageSize w108h72/1.5" x 1":            "<</PageSize[108 72]/ImagingBBox null>>setpagedevice"
+*PageSize w72h72/1" x 1":               "<</PageSize[72 72]/ImagingBBox null>>setpagedevice"
+
+*CloseUI: *PageSize
+
+*OpenUI *PageRegion: PickOne
+*DefaultPageRegion: w288h432
+
+*PageRegion w288h576/4" x 8":             "<</PageSize[288 576]/ImagingBBox null>>setpagedevice"
+*PageRegion w288h432/4" x 6" - Shipping:  "<</PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*PageRegion w288h360/4" x 5":             "<</PageSize[288 360]/ImagingBBox null>>setpagedevice"
+*PageRegion w288h288/4" x 4":             "<</PageSize[288 288]/ImagingBBox null>>setpagedevice"
+*PageRegion w288h252/4" x 3.5":           "<</PageSize[288 252]/ImagingBBox null>>setpagedevice"
+*PageRegion w288h216/4" x 3":             "<</PageSize[288 216]/ImagingBBox null>>setpagedevice"
+*PageRegion w288h180/4" x 2.5":           "<</PageSize[288 180]/ImagingBBox null>>setpagedevice"
+*PageRegion w288h144/4" x 2":             "<</PageSize[288 144]/ImagingBBox null>>setpagedevice"
+*PageRegion w288h108/4" x 1.5":           "<</PageSize[288 108]/ImagingBBox null>>setpagedevice"
+*PageRegion w288h72/4" x 1":              "<</PageSize[288 72]/ImagingBBox null>>setpagedevice"
+*PageRegion w288h54/4" x 0.75":           "<</PageSize[288 54]/ImagingBBox null>>setpagedevice"
+*PageRegion w261h180/3.625" x 2.5" - Receipt: "<</PageSize[261 180]/ImagingBBox null>>setpagedevice"
+*PageRegion w261h126/3.625" x 1.75":      "<</PageSize[261 126]/ImagingBBox null>>setpagedevice"
+*PageRegion w216h432/3" x 6":             "<</PageSize[216 432]/ImagingBBox null>>setpagedevice"
+*PageRegion w216h288/3" x 4":             "<</PageSize[216 288]/ImagingBBox null>>setpagedevice"
+*PageRegion w216h216/3" x 3":             "<</PageSize[216 216]/ImagingBBox null>>setpagedevice"
+*PageRegion w216h144/3" x 2":             "<</PageSize[216 144]/ImagingBBox null>>setpagedevice"
+*PageRegion w216h72/3" x 1":              "<</PageSize[216 72]/ImagingBBox null>>setpagedevice"
+*PageRegion w216h54/3" x 0.75":           "<</PageSize[216 54]/ImagingBBox null>>setpagedevice"
+*PageRegion w180h72/2.5" x 1":            "<</PageSize[180 72]/ImagingBBox null>>setpagedevice"
+*PageRegion w180h54/2.5" x 0.75":         "<</PageSize[180 54]/ImagingBBox null>>setpagedevice"
+*PageRegion w162h126/2.25" x 1.75":       "<</PageSize[162 126]/ImagingBBox null>>setpagedevice"
+*PageRegion w162h90/2.25" x 1.25":        "<</PageSize[162 90]/ImagingBBox null>>setpagedevice"
+*PageRegion w162h72/2.25" x 1":           "<</PageSize[162 72]/ImagingBBox null>>setpagedevice"
+*PageRegion w162h54/2.25" x 0.75" - Price Tag: "<</PageSize[162 54]/ImagingBBox null>>setpagedevice"
+*PageRegion w144h144/2" x 2":             "<</PageSize[144 144]/ImagingBBox null>>setpagedevice"
+*PageRegion w144h108/2" x 1.5":           "<</PageSize[144 108]/ImagingBBox null>>setpagedevice"
+*PageRegion w144h72/2" x 1":              "<</PageSize[144 72]/ImagingBBox null>>setpagedevice"
+*PageRegion w144h54/2" x 0.75":           "<</PageSize[144 54]/ImagingBBox null>>setpagedevice"
+*PageRegion w108h72/1.5" x 1":            "<</PageSize[108 72]/ImagingBBox null>>setpagedevice"
+*PageRegion w72h72/1" x 1":               "<</PageSize[72 72]/ImagingBBox null>>setpagedevice"
+
+*CloseUI: *PageRegion
+
+*% -- Imageable areas -------------------------------------------------------
+*ImageableArea w288h576/4" x 8":              "0 0 288 576"
+*ImageableArea w288h432/4" x 6" - Shipping:   "0 0 288 432"
+*ImageableArea w288h360/4" x 5":              "0 0 288 360"
+*ImageableArea w288h288/4" x 4":              "0 0 288 288"
+*ImageableArea w288h252/4" x 3.5":            "0 0 288 252"
+*ImageableArea w288h216/4" x 3":              "0 0 288 216"
+*ImageableArea w288h180/4" x 2.5":            "0 0 288 180"
+*ImageableArea w288h144/4" x 2":              "0 0 288 144"
+*ImageableArea w288h108/4" x 1.5":            "0 0 288 108"
+*ImageableArea w288h72/4" x 1":               "0 0 288 72"
+*ImageableArea w288h54/4" x 0.75":            "0 0 288 54"
+*ImageableArea w261h180/3.625" x 2.5" - Receipt: "0 0 261 180"
+*ImageableArea w261h126/3.625" x 1.75":       "0 0 261 126"
+*ImageableArea w216h432/3" x 6":              "0 0 216 432"
+*ImageableArea w216h288/3" x 4":              "0 0 216 288"
+*ImageableArea w216h216/3" x 3":              "0 0 216 216"
+*ImageableArea w216h144/3" x 2":              "0 0 216 144"
+*ImageableArea w216h72/3" x 1":               "0 0 216 72"
+*ImageableArea w216h54/3" x 0.75":            "0 0 216 54"
+*ImageableArea w180h72/2.5" x 1":             "0 0 180 72"
+*ImageableArea w180h54/2.5" x 0.75":          "0 0 180 54"
+*ImageableArea w162h126/2.25" x 1.75":        "0 0 162 126"
+*ImageableArea w162h90/2.25" x 1.25":         "0 0 162 90"
+*ImageableArea w162h72/2.25" x 1":            "0 0 162 72"
+*ImageableArea w162h54/2.25" x 0.75" - Price Tag: "0 0 162 54"
+*ImageableArea w144h144/2" x 2":              "0 0 144 144"
+*ImageableArea w144h108/2" x 1.5":            "0 0 144 108"
+*ImageableArea w144h72/2" x 1":               "0 0 144 72"
+*ImageableArea w144h54/2" x 0.75":            "0 0 144 54"
+*ImageableArea w108h72/1.5" x 1":             "0 0 108 72"
+*ImageableArea w72h72/1" x 1":                "0 0 72 72"
+
+*% -- Paper dimensions ------------------------------------------------------
+*PaperDimension w288h576/4" x 8":              "288 576"
+*PaperDimension w288h432/4" x 6" - Shipping:   "288 432"
+*PaperDimension w288h360/4" x 5":              "288 360"
+*PaperDimension w288h288/4" x 4":              "288 288"
+*PaperDimension w288h252/4" x 3.5":            "288 252"
+*PaperDimension w288h216/4" x 3":              "288 216"
+*PaperDimension w288h180/4" x 2.5":            "288 180"
+*PaperDimension w288h144/4" x 2":              "288 144"
+*PaperDimension w288h108/4" x 1.5":            "288 108"
+*PaperDimension w288h72/4" x 1":               "288 72"
+*PaperDimension w288h54/4" x 0.75":            "288 54"
+*PaperDimension w261h180/3.625" x 2.5" - Receipt: "261 180"
+*PaperDimension w261h126/3.625" x 1.75":       "261 126"
+*PaperDimension w216h432/3" x 6":              "216 432"
+*PaperDimension w216h288/3" x 4":              "216 288"
+*PaperDimension w216h216/3" x 3":              "216 216"
+*PaperDimension w216h144/3" x 2":              "216 144"
+*PaperDimension w216h72/3" x 1":               "216 72"
+*PaperDimension w216h54/3" x 0.75":            "216 54"
+*PaperDimension w180h72/2.5" x 1":             "180 72"
+*PaperDimension w180h54/2.5" x 0.75":          "180 54"
+*PaperDimension w162h126/2.25" x 1.75":        "162 126"
+*PaperDimension w162h90/2.25" x 1.25":         "162 90"
+*PaperDimension w162h72/2.25" x 1":            "162 72"
+*PaperDimension w162h54/2.25" x 0.75" - Price Tag: "162 54"
+*PaperDimension w144h144/2" x 2":              "144 144"
+*PaperDimension w144h108/2" x 1.5":            "144 108"
+*PaperDimension w144h72/2" x 1":               "144 72"
+*PaperDimension w144h54/2" x 0.75":            "144 54"
+*PaperDimension w108h72/1.5" x 1":             "108 72"
+*PaperDimension w72h72/1" x 1":                "72 72"
+
+*% -- Printer Features ------------------------------------------------------
+
+*% Print speed (ZPL ^PR command - inches per second)
+*OpenUI *ZebraSpeed/Print Speed: PickOne
+*DefaultZebraSpeed: 4
+*ZebraSpeed 2/2 ips - Slowest (best quality): ""
+*ZebraSpeed 3/3 ips - Slow: ""
+*ZebraSpeed 4/4 ips - Normal: ""
+*ZebraSpeed 5/5 ips - Fast: ""
+*ZebraSpeed 6/6 ips - Fastest: ""
+*CloseUI: *ZebraSpeed
+
+*% Print darkness (ZPL ^MD command - relative adjustment)
+*OpenUI *ZebraDarkness/Print Darkness: PickOne
+*DefaultZebraDarkness: 0
+*ZebraDarkness -10/-10 - Much lighter: ""
+*ZebraDarkness -5/-5 - Lighter: ""
+*ZebraDarkness 0/0 - Normal (printer default): ""
+*ZebraDarkness +5/+5 - Darker: ""
+*ZebraDarkness +10/+10 - Much darker: ""
+*ZebraDarkness +15/+15 - Very dark: ""
+*ZebraDarkness +20/+20 - Maximum: ""
+*CloseUI: *ZebraDarkness
+
+*% End of PPD
